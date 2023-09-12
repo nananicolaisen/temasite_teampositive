@@ -19,3 +19,23 @@
 .nav_index {
   position: absolute;
 }
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  width: 100vh;
+}
+
+.tekst {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.tekst,
+img {
+  width: 100%;
+  height: auto;
+}
