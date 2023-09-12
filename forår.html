@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -17,32 +18,39 @@
       </nav>
     </header>
     <main>
-      <section class="intro">
-        <div>
-          <img src="img/MicrosoftTeams-image.png" alt="bagrundsbillede" />
-        </div>
-        <div>
-          <h2>Forår</h2>
-          <p><!--Indsæt tekst om forår--></p>
+      <section>
+        <div class="intro">
+          <div>
+            <img src="img/MicrosoftTeams-image.png" alt="bagrundsbillede" />
+          </div>
+          <div>
+            <h2>Forår</h2>
+            <p>forår er<!--Indsæt tekst om forår--></p>
+          </div>
         </div>
       </section>
 
       <section class="tekst">
-        <img src="img/svampe (1).png" alt="Svamp" />
-        <h2>Svampe</h2>
-        <p>
-          En svamp er
-          <!--Indsæt tekst om svampe-->
-        </p>
+        <div>
+          <img class="illustation" src="img/svampe (1).png" alt="Svamp" />
+        </div>
+        <div>
+          <h2>Svampe</h2>
+          <p>
+            En svamp er
+            <!--Indsæt tekst om svampe-->
+          </p>
+        </div>
       </section>
 
       <section class="Opskrifter">
         <!--Indsæt fetch og supabase api-->
       </section>
 
-      <section class="click_kort">
-        <img src="img/vildmadkort.png" alt="Vild mad kort" />
-        <!--Indsæt kode til kort og det klikkede element til kortet-->
+      <section class="kort">
+        <div>
+          <img src="img/vildmadkort.png" alt="Vild mad kort" />
+        </div>
       </section>
     </main>
   </body>
