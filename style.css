@@ -1,0 +1,21 @@
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.nav_tema1 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  height: 100vh;
+  font-size: 40px;
+  mix-blend-mode: lighten;
+}
+
+.nav_tema1:hover {
+  opacity: 50%;
+}
+
+.nav_index {
+  position: absolute;
+}
