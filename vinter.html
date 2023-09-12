@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Temasite 7</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -11,35 +12,51 @@
         <li>
           <a href="index.html">Vild mad sæsoner</a>
         </li>
-        <li>
+        <li class="se_kort">
           <a href="kort.html">Se kort</a>
         </li>
       </nav>
     </header>
     <main>
-      <section class="forår_intro">
-        <div style="background-image: url(img/MicrosoftTeams-image.png)">
-          <a href="forår.html">
-            <h2 class="nav_tema1" style="color: white">Forår</h2>
-          </a>
+      <section>
+        <div class="intro">
+          <div>
+            <img src="img/MicrosoftTeams-image.png" alt="bagrundsbillede" />
+          </div>
+          <div class="intro_tekst">
+            <h2>Vinter</h2>
+            <p>forår er<!--Indsæt tekst om vinter--></p>
+          </div>
         </div>
-        <h2>Vinter</h2>
-        <p><!--Indsæt tekst om vinter--></p>
       </section>
 
-      <section class="urter">
-        <img src="img/urter (1).png" alt="urter" />
-        <h2>Urter</h2>
-        <p><!--Indsæt tekst om urter--></p>
+      <section class="tekst">
+        <div>
+          <img class="illustation" src="img/busketræer.png" alt="bukse" />
+        </div>
+        <div>
+          <h2>Bukse og træer</h2>
+          <p>
+            En svamp er
+            <!--Indsæt tekst om bukse og træer-->
+          </p>
+        </div>
       </section>
 
-      <section class="Opskrifter">
+      <section class="api">
         <!--Indsæt fetch og supabase api-->
       </section>
 
-      <section class="click_kort">
-        <img src="img/vildmadkort.png" alt="Vild mad kort" />
-        <!--Indsæt kode til kort og det klikkede element til kortet-->
+      <section class="Opskrifter">
+        <h2><!--indsæt opskrift navn--></h2>
+        <img src="" alt="" />
+        <p><!--indsæt opskrift info--></p>
+      </section>
+
+      <section>
+        <div class="illustation">
+          <img src="img/vildmadkort.png" alt="Vild mad kort" />
+        </div>
       </section>
     </main>
   </body>

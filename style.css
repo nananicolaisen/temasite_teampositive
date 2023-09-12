@@ -10,6 +10,7 @@
   height: 100vh;
   font-size: 40px;
   mix-blend-mode: lighten;
+  text-align: center;
 }
 
 .nav_tema1:hover {
@@ -37,4 +38,22 @@
 .illustation {
   max-width: 100%;
   max-height: 100%;
+}
+
+.intro_tekst {
+  position: absolute;
+  left: 350px;
+  top: 20vh;
+  z-index: -1;
+}
+
+.se_kort {
+  border: solid;
+  border-color: black;
+  max-width: 300px;
+  margin: 30px;
+  padding: 10px;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
 }
