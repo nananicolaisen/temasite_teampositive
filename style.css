@@ -5,55 +5,38 @@
 }
 
 .nav_tema1 {
-  grid-column: 1 / 2;
-  grid-row: 1;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  font-size: 40px;
-  mix-blend-mode: lighten;
   text-align: center;
 }
 
-.nav_tema1:hover {
-  opacity: 50%;
-}
-
 .nav_index {
-  position: absolute;
-}
-
-.intro {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  height: 100vh;
-  width: 100vh;
-}
-
-.tekst {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-}
-
-.illustation {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.intro_tekst {
-  position: absolute;
-  left: 350px;
-  top: 20vh;
-  z-index: -1;
-}
-
-.se_kort {
-  border: solid;
-  border-color: black;
   max-width: 300px;
   margin: 30px;
   padding: 10px;
   list-style: none;
   position: absolute;
   z-index: 2;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p,
+h3,
+li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.logo img {
+  max-width: 80px;
 }
